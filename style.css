@@ -1,0 +1,388 @@
+body {
+    margin: 1px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+}
+
+h1 {
+    color: #3fc5f0;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-weight: normal;
+    color: #3fc5f0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.introduction {
+    color: #3fc5f0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.my_discription {
+    margin: 50px 250px 150px 250px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #393e46;
+}
+
+.Engg {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #aeefec;
+    position: relative;
+    padding-top: 150px;
+}
+
+/* IDEA: header start */
+.header1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.header2 {
+    position: absolute;
+    top: 50px;
+    left: 630px;
+}
+
+.header_logo {
+    float: left;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #3fc5f0;
+}
+
+.button_header {
+    border-radius: 4px;
+    background-color: #aeefec;
+    border: none;
+    color: #3fc5f0;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2.5px;
+}
+
+.button_header span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button_header span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 1s;
+}
+
+.button_header:hover span {
+    padding-right: 15px;
+}
+
+.button_header:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* IDEA: header close */
+.mountain {
+    margin: auto;
+}
+
+.bottom_cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 250px;
+}
+
+.top_cloud {
+    position: absolute;
+    right: 200px;
+    top: 300px;
+}
+
+.hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 5%;
+}
+
+.DWYW {
+    float: left;
+}
+
+.dwywimg {
+    position: absolute;
+    right: 800px;
+}
+
+.dwywintro {
+    margin-left: 200px;
+    color: #3fc5f0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dwywdiscription {
+    text-align: left;
+    margin: 50px 250px 50px 575px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #393e46;
+}
+
+.DWYN {
+    float: right;
+}
+
+.dwynimg {
+    position: absolute;
+    right: 250px;
+}
+
+.dwynintro {
+    margin-right: 350px;
+    color: #3fc5f0;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dwyndiscription {
+    text-align: left;
+    margin: 50px 550px 50px 300px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #393e46;
+}
+
+.Help {
+    text-align: center;
+    margin: 50px 300px 50px 300px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #393e46;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #aeefec;
+    border: none;
+    color: #3fc5f0;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+/* IDEA: css footer sample */
+.bottom-container {
+    background-color: #aeefec;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.table {
+    font-size: 1rem;
+    color: #3fc5f0;
+}
+
+.copyright {
+    font-size: .8rem;
+    color: #3fc5f0;
+}
+
+/* IDEA: home page done */
+/* IDEA: work page starts */
+.flag1 {
+    position: absolute;
+    left: 200px;
+}
+
+.flag2 {
+    position: absolute;
+    right: 200px
+}
+
+.my_discription_work {
+    margin: 50px 250px 50px 250px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #393e46;
+}
+/* IDEA: autocad projects */
+.autocadout {
+    background-color: #fc9d9d;
+}
+.no_align{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.AutoCAD1in {
+    width: auto;
+    height: 900px;
+    margin: 10px 100px 1px 100px;
+    background-color: #b6eb7a;
+    text-align: center;
+}
+.AutoCAD2in{
+    width: auto;
+    height: 780px;
+    margin: 10px 100px 1px 100px;
+    background-color: #c2c57f;
+    text-align: center;
+}
+.AutoCAD3in{
+    width: auto;
+    height: 780px;
+    margin: 10px 100px 1px 100px;
+    background-color: #ffa5b0;
+    text-align: center;
+}
+/* IDEA: sw projects */
+.swout {
+    background-color: #a8df65;
+}
+.no_align{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.sw1in {
+    width: auto;
+    height: 900px;
+    margin: 10px 100px 1px 100px;
+    background-color: #ffc4a3;
+    text-align: center;
+}
+.sw2in{
+    width: auto;
+    height: 850px;
+    margin: 10px 100px 1px 100px;
+    background-color: #ffc4a3;
+    text-align: center;
+}
+.sw3in{
+    width: auto;
+    height: 780px;
+    margin: 10px 100px 1px 100px;
+    background-color: #f96d80;
+    text-align: center;
+}
+/* IDEA: revit pro starts */
+.revit {
+    background-color: #d291bc;
+}
+.no_align{
+    margin-left: 50px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.r1 {
+    width: auto;
+    height: 900px;
+    margin: 10px 100px 1px 100px;
+    background-color: #a0c1a8;
+    text-align: center;
+}
+.r2{
+    width: auto;
+    height: 910px;
+    margin: 10px 100px 1px 100px;
+    background-color: #709fb0;
+    text-align: center;
+}
+.r3{
+    width: auto;
+    height: 800px;
+    margin: 10px 100px 1px 100px;
+    background-color: #a0c1b8;
+    text-align: center;
+}
+.blogs_head{
+    text-align: center;
+    color: #3fc5f0;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.p_blogs{
+    text-align: justify;
+    margin: 50px 250px 150px 250px;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #393e46;
+}
+/* IDEA: contact me */
+.my_image{
+    float: right;
+    margin-top: 70px;
+    margin-right: 80px;
+    margin-bottom: 70px;
+}
+
+
+.contact1{
+    color: #393e46;
+    font-size: 1rem;
+    float: none;
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 680px;
+}
